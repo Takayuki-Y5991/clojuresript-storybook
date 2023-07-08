@@ -1,0 +1,1 @@
+["^ ","~$->params",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$stories.app.stories.helper","~:top-ns","^7","~:type","~:fn"],"~$->default",["^ ","^1",6,"^2",1,"^3",["^4",[1]],"^5","^;","^6","^7","^8","^7","^9","^:"],"~:filename","/Users/konkon/atlier/programming/clojure/clojuresript/storybooks-v2/src/stories/app/stories/helper.cljs"]

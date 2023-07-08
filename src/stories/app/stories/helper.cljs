@@ -1,8 +1,5 @@
-(ns app.stories.helper)
+(ns app.stories.helper
+  (:require ["react" :as r]))
 
-(defn ->params [^js args]
-  (js->clj args :keywordize-keys true))
+(def $ r/createElement)
 
-(defn ->default [options]
-  (-> options
-      clj->js))

@@ -13,6 +13,7 @@ var rum=$CLJS.rum || ($CLJS.rum = {});
 var module$shadow_js_shim_module$react_dom=$CLJS.module$shadow_js_shim_module$react_dom || ($CLJS.module$shadow_js_shim_module$react_dom = {});
 var goog=$CLJS.goog || ($CLJS.goog = {});
 var app=$CLJS.app || ($CLJS.app = {});
+var module$shadow_js_shim_module$$storybook$addon_actions=$CLJS.module$shadow_js_shim_module$$storybook$addon_actions || ($CLJS.module$shadow_js_shim_module$$storybook$addon_actions = {});
 var com=$CLJS.com || ($CLJS.com = {});
 
 $CLJS.SHADOW_ENV.setLoaded("com.cognitect.transit.util.js");

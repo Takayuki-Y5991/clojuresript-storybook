@@ -1,9 +1,7 @@
 var $CLJS = require("./cljs_env");
 var $jscomp = $CLJS.$jscomp;
 var COMPILED = false;
-require("./cljs.core.js");
-require("./shadow.js.shim.module$react.js");
-require("./shadow.js.shim.module$react_dom.js");
+
 var cognitect=$CLJS.cognitect || ($CLJS.cognitect = {});
 var module$shadow_js_shim_module$react=$CLJS.module$shadow_js_shim_module$react || ($CLJS.module$shadow_js_shim_module$react = {});
 var clojure=$CLJS.clojure || ($CLJS.clojure = {});
@@ -18,10 +16,11 @@ var app=$CLJS.app || ($CLJS.app = {});
 var module$shadow_js_shim_module$$storybook$addon_actions=$CLJS.module$shadow_js_shim_module$$storybook$addon_actions || ($CLJS.module$shadow_js_shim_module$$storybook$addon_actions = {});
 var com=$CLJS.com || ($CLJS.com = {});
 
-$CLJS.SHADOW_ENV.setLoaded("cljsjs.react.dom.js");
+$CLJS.SHADOW_ENV.setLoaded("shadow.js.shim.module$$storybook$addon_actions.js");
 
-goog.provide('cljsjs.react.dom');
-goog.object.set(shadow.js.shim.module$react,"DOM",shadow.js.shim.module$react_dom);
-goog.exportSymbol("ReactDOM",shadow.js.shim.module$react_dom);
+goog.provide("shadow.js.shim.module$$storybook$addon_actions");
+goog.provide("module$shadow_js_shim_module$$storybook$addon_actions");
+shadow.js.shim.module$$storybook$addon_actions = require("@storybook/addon-actions");
+module$shadow_js_shim_module$$storybook$addon_actions.default = shadow.js.shim.module$$storybook$addon_actions;
 
-//# sourceMappingURL=cljsjs.react.dom.js.map
+//# sourceMappingURL=shadow.js.shim.module$$storybook$addon_actions.js.map
